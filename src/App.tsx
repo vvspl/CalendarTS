@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Header from './components/header/Header.js';
+import Header from './components/header/Header';
 import Calendar from './components/calendar/Calendar';
 import { getWeekStartDate, generateWeekRange, months } from './utils/dateUtils.js';
 import './common.scss';

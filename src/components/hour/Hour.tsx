@@ -8,7 +8,7 @@ const Hour: React.FC<IHour> = ({ dataHour, hourEvents, dataDay, showEvents }) =>
 
   useEffect(() => {
     let interval = setInterval(() => {
-      // eslint-disable-next-line @typescript-eslint/no-unused-expressions
+      // eslint-disable-next-line @typescript-eslint/no-unused-expressions, no-sequences, react-hooks/exhaustive-deps
       setMargin((margin = new Date().getMinutes())), 60000;
     }, 1000);
 
